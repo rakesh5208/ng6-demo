@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-xs-12 col-sm-4 col-md-3 di" 
+       *ngFor="let item of items" 
+       [ngStyle]="{'background':item.bg}"
+       [routerLink]="item.path" >
+      <div class="di-icon">
+        <span [ngClass]="item.icon"></span>
+      </div> 
+      <div class="di-content">
+        <label>{{item.label}}</label>
+      </div>
+  </div>
+</div>
+
+
+      

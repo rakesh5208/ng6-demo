@@ -1,0 +1,16 @@
+.app-container{
+    position: relative;
+}
+.menu>li{
+    display: inline-block;
+    padding:16px;
+}
+.menu>li:hover{
+    background: #a3a3a3;
+    color:white;
+    cursor: pointer;
+}
+
+.active-nav{
+    border-bottom: 2px solid rgb(62, 62, 247);
+}
