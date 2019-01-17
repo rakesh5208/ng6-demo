@@ -1,0 +1,522 @@
+[
+  {
+    "id": "ffbde918-c502-4339-afc3-e6907ea04457",
+    "name": "Oklahoma",
+    "status": "INACTIVE",
+    "type": "Region",
+    "hccs": [
+      {
+        "id": "34528ef7-4c95-4a4c-91bb-e01650baef31",
+        "name": "Trexlertown",
+        "status": "ACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "b7d4260a-667b-4d51-947f-9431135ca919",
+            "name": "Clinton Street",
+            "status": "ACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "ae42a7fa-8d01-4139-89ad-0291f3a5c70b",
+                "name": "Whitley"
+              }
+            ]
+          },
+          {
+            "id": "b5e30f02-18a0-4140-bf9a-11f7ee7e5957",
+            "name": "Kansas Place",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "c9edecfa-6397-4b0b-bb71-645c220d640c",
+                "name": "Rose"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4d401bfa-e3bb-4a4a-8a97-02327de9d62a",
+        "name": "Summertown",
+        "status": "INACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "d6c88dc4-6603-4d1a-844d-4af7e3794d8f",
+            "name": "Vermont Street",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "7fd172b7-7493-44ec-8f04-582d44e71099",
+                "name": "Knapp"
+              }
+            ]
+          },
+          {
+            "id": "15856394-4364-43ec-accb-0d4f6a4d4156",
+            "name": "Adelphi Street",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "9cf82fd8-3326-4d49-8b7f-017aa037eb6e",
+                "name": "Reilly"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e29f390b-bcf9-47d7-8f6c-e729b650daf9",
+        "name": "Whitehaven",
+        "status": "INACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "a3ccf421-6f71-4824-b6d9-4c61a0bd2339",
+            "name": "Strauss Street",
+            "status": "ACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "322f5863-9350-4ef0-b226-56700661373d",
+                "name": "Salas"
+              }
+            ]
+          },
+          {
+            "id": "320ac4e1-1fde-45de-be07-adcee2e4c7f9",
+            "name": "Stillwell Avenue",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "54b5ddcd-2129-4602-8f63-120b396b9762",
+                "name": "Bishop"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cfcbb165-7832-4f4c-b7b4-bc99b5c7a6c3",
+    "name": "Montana",
+    "status": "INACTIVE",
+    "type": "Region",
+    "hccs": [
+      {
+        "id": "2443cfb5-f73b-4118-98b8-a95d36fd1c81",
+        "name": "Martell",
+        "status": "INACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "61cabcaf-ab91-4e1f-8bc5-67b806200ea2",
+            "name": "Debevoise Avenue",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "4ffb8037-44b9-41ff-b811-d2239059e2a3",
+                "name": "Rosa"
+              }
+            ]
+          },
+          {
+            "id": "fee33a98-aee9-4293-9ac0-5d687a1915ca",
+            "name": "Brigham Street",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "5b1a0e22-1c6b-4a54-89bc-49b4e1b41c05",
+                "name": "Gregory"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3cd15596-6ae7-4357-a7c3-7adddb9dbe99",
+        "name": "Moquino",
+        "status": "ACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "324ddea9-6706-4674-b66e-8cfe14929194",
+            "name": "Duryea Place",
+            "status": "ACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "818b5e48-8548-47e6-9973-ba68a96bcf27",
+                "name": "Harris"
+              }
+            ]
+          },
+          {
+            "id": "fb9db2e1-fa5e-4989-a9bb-337d3d4cd092",
+            "name": "Fulton Street",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "988f3158-d87e-4ace-b16b-1b9e3d14a796",
+                "name": "Hess"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "79749178-5cfd-4ac5-8b40-d56ecc045b00",
+        "name": "Gorham",
+        "status": "INACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "1605ec51-eaa7-46fe-8c79-5e3877959558",
+            "name": "Hendrickson Place",
+            "status": "ACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "c0589ee0-2943-4fc0-b2a9-f2c083e4132a",
+                "name": "Copeland"
+              }
+            ]
+          },
+          {
+            "id": "c53b0471-e765-48f2-94c2-c0f9a5d6143b",
+            "name": "Division Avenue",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "1360ff1b-50b1-45d8-9c50-ffe389bb25fc",
+                "name": "Porter"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "35b09f6a-234f-4606-81e4-bf41171e1916",
+    "name": "Connecticut",
+    "status": "ACTIVE",
+    "type": "Region",
+    "hccs": [
+      {
+        "id": "688a696b-1bc9-4acc-b1a7-25788f1b81a6",
+        "name": "Albrightsville",
+        "status": "INACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "fb5d0e0c-b5ba-4737-9fcc-3cadf98eb81b",
+            "name": "Conselyea Street",
+            "status": "ACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "384f8981-e85b-422a-83c0-a5de437ad218",
+                "name": "Mckenzie"
+              }
+            ]
+          },
+          {
+            "id": "cc78508b-265a-46ca-bd96-80d289c6fe89",
+            "name": "Eaton Court",
+            "status": "ACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "dd3a4c42-92cb-4bad-b41e-0ff9ab8f9e47",
+                "name": "Delacruz"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d9e88fcf-ea5f-4ac2-b4b0-f8d85d35cf01",
+        "name": "Klagetoh",
+        "status": "ACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "222a9414-338a-4ee7-b08e-10cd7350bc0b",
+            "name": "Colonial Court",
+            "status": "ACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "f50bf630-933a-4663-abfe-379560389232",
+                "name": "Schmidt"
+              }
+            ]
+          },
+          {
+            "id": "5e8abb99-b8e1-486a-bae9-603815f5f703",
+            "name": "Nelson Street",
+            "status": "ACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "53cf70b3-c4e6-4b59-9d24-3efa33dc2b64",
+                "name": "Cotton"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cfa51187-1e9d-4e7e-af6e-b9952c6737ce",
+        "name": "Hartsville/Hartley",
+        "status": "ACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "0f5edca4-3dec-465e-9370-290b939aa00a",
+            "name": "Amherst Street",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "d01963b9-5c34-4023-be46-9a0d3fe1fb1b",
+                "name": "Silva"
+              }
+            ]
+          },
+          {
+            "id": "685a6422-8c8c-4c2c-bf94-97da8fcacfc7",
+            "name": "Logan Street",
+            "status": "ACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "04e7878a-e14d-4f9e-892a-98b86fd39636",
+                "name": "Pitts"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "22ab69f4-c82d-46dd-9eb9-23222c072c82",
+    "name": "Rhode Island",
+    "status": "INACTIVE",
+    "type": "Region",
+    "hccs": [
+      {
+        "id": "81c294b3-90f4-4ac5-a786-4af044c9446d",
+        "name": "Jardine",
+        "status": "ACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "a46b26b4-48f1-4be3-aad8-ae79f760ddbc",
+            "name": "Cypress Avenue",
+            "status": "ACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "8b5c819e-3b62-42ce-9f28-8608f1c9a477",
+                "name": "Russo"
+              }
+            ]
+          },
+          {
+            "id": "7ea6ce6d-5a02-46f8-82e2-6c3eb37cccb2",
+            "name": "Fayette Street",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "a2cc7706-5969-4d12-bc5e-ae22903e7258",
+                "name": "Griffin"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "44ad3c53-f8f9-4043-b79e-4059deadd572",
+        "name": "Rockingham",
+        "status": "ACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "179040ee-85f4-4666-882c-5f0018771db7",
+            "name": "Seabring Street",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "96c6b1d6-6bd9-479f-8479-ff4fdc7d068a",
+                "name": "Anthony"
+              }
+            ]
+          },
+          {
+            "id": "12338f76-f90e-41ec-b37b-a6546c29ade5",
+            "name": "Heath Place",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "da4410af-f9d3-4bb0-8187-e7bf45e4ab9b",
+                "name": "Jacobson"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ef599689-d4b8-4004-b835-76ef3e1a4f86",
+        "name": "Dawn",
+        "status": "ACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "478e72d1-2cce-48e0-9d2d-9f72ecb4ddd9",
+            "name": "Kent Street",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "c8b41fc5-0835-4015-8df6-d312dbed5f54",
+                "name": "Stevenson"
+              }
+            ]
+          },
+          {
+            "id": "0b3576b1-f22a-4c6b-b616-1f877084aa48",
+            "name": "Clifton Place",
+            "status": "ACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "8da6bea1-a37b-46c3-a09b-a2621b433a22",
+                "name": "Gamble"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5d1ff594-b290-4219-a6aa-60b5c60a58a1",
+    "name": "Michigan",
+    "status": "ACTIVE",
+    "type": "Region",
+    "hccs": [
+      {
+        "id": "e3a59da8-af68-4c8c-b89a-6fbe22a3a320",
+        "name": "Northridge",
+        "status": "ACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "0f684d2d-351d-4fd2-977a-e2b84c1e2d15",
+            "name": "Cove Lane",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "e745d09c-7f73-460f-81da-19043aaf836f",
+                "name": "Alvarado"
+              }
+            ]
+          },
+          {
+            "id": "81345bda-d228-4f4d-9287-1026580dc721",
+            "name": "Kings Hwy",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "8be418bc-d565-4a64-83e9-601c118386b4",
+                "name": "Powell"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b98a4556-5203-44ea-9132-d0a6674c65c7",
+        "name": "Rivereno",
+        "status": "INACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "5613ec51-20a0-4f5b-a67b-98cd360848c4",
+            "name": "Church Lane",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "37f3ce36-324a-4eae-a091-9b6a86e1c22b",
+                "name": "Nixon"
+              }
+            ]
+          },
+          {
+            "id": "1e5f5ccb-0d8b-42f0-9a6c-b6459eb062e2",
+            "name": "McDonald Avenue",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "1f9bf4bb-abb9-4158-bbe0-fb12762213f1",
+                "name": "Holder"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "497bd8b8-5d9b-47a5-a119-956a559186ea",
+        "name": "Trinway",
+        "status": "ACTIVE",
+        "type": "Healthcare System",
+        "facilities": [
+          {
+            "id": "f6ecc16c-d26b-48a9-b260-c4222e095104",
+            "name": "Dunne Court",
+            "status": "ACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "9c49a9b5-5488-4932-be05-552f135b79c0",
+                "name": "Shaffer"
+              }
+            ]
+          },
+          {
+            "id": "ef259139-d3ce-4325-9261-4de9c7467112",
+            "name": "Hart Place",
+            "status": "INACTIVE",
+            "type": "Facility",
+            "connectivityNodes": [
+              {
+                "id": "0db1d257-572c-4937-9feb-34b12c0352d6",
+                "name": "Acevedo"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

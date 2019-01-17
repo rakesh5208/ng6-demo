@@ -1,0 +1,40 @@
+<div class="row">
+  <div class="col-xs-12">
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Regions & Healthcares</th>
+          <th *ngFor="let role of roles">{{role.name}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-container *ngFor="let region of regions">
+          <tr class="region-row">
+            <td [attr.colspan]="roles.length + 1">
+              <i class="fa" 
+                 [ngClass]="region.collapse ? 'fa-plus-circle' : 'fa-minus-circle'" 
+                 aria-hidden="true"
+                (click)="region.collapse = !region.collapse">&nbsp;</i>
+              <span>{{region.name}} </span>
+            </td>
+          </tr>
+          <ng-container *ngIf="!region.collapse">
+            <tr *ngFor="let hcc of region.hccs" class="child-row">
+              <td>{{hcc.name}}</td>
+              <td *ngFor="let role of roles">
+                <i class="fa" 
+                  [ngClass]="rcb.checked ? 'fa-check-square' : 'fa-square-o'"
+                  aria-hidden="true"
+                  (click)="rcb.checked = !rcb.checked"></i>
+                <input type="checkbox" #rcb hidden/>
+              </td>
+            </tr>
+          </ng-container>
+        </ng-container>
+      </tbody>
+
+    </table>
+  </div>
+
+</div>

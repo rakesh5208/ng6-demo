@@ -7,12 +7,16 @@ import { SharedModule } from './shared/shared.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { AccountSettingsModule } from './account-settings/account-settings.module';
 import { UsersModule } from './users/users.module';
+import { RoleAssignmentComponent } from './role-assignment/role-assignment.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RoleAssignmentComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     SharedModule,
     DashboardModule,
     AccountSettingsModule,

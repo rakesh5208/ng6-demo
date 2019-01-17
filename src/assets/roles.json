@@ -1,0 +1,42 @@
+[
+    {
+        "id": "e576765a-d7b5-489a-b984-9408f6084911",
+        "name": "Role 1",
+        "type": "SYSTEM",
+        "whenCreated": 1545896393000,
+        "whenLastUpdated": 1545896393000,
+        "privileges":[],
+        "description": "Role_1",
+        "privilegeCount": 0
+    },
+    {
+        "id": "f9ad39e5-bfcb-43fe-8f7a-48a70e99b85b",
+        "name": "Role 2",
+        "type": "SYSTEM",
+        "whenCreated": 1545896393000,
+        "whenLastUpdated": 1545896393000,
+        "privileges":[],
+        "description": "Role_2",
+        "privilegeCount": 0
+    },
+    {
+        "id": "62f43913-156c-472e-ab1d-b449bac42261",
+        "name": "Role 3",
+        "type": "SYSTEM",
+        "whenCreated": 1545896393000,
+        "whenLastUpdated": 1545896393000,
+        "privileges":[],
+        "description": "Role_3",
+        "privilegeCount": 0
+    },
+    {
+        "id": "95306d6a-9ff1-4ccb-9dfe-bd094ab03fbc",
+        "name": "Role 4",
+        "type": "SYSTEM",
+        "whenCreated": 1545896393000,
+        "whenLastUpdated": 1545896393000,
+        "privileges":[],
+        "description": "Role_4",
+        "privilegeCount": 0
+    }
+]

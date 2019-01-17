@@ -4,9 +4,12 @@
       <li routerLink="/dashboard" routerLinkActive="active-nav">Dashboard</li>
       <li routerLink="/users" routerLinkActive="active-nav">Users</li>
       <li routerLink="/settings" routerLinkActive="active-nav">Account Settings</li>
+      <li routerLink="/role-assignment" routerLinkActive="active-nav">Role  Assignment</li>
+      
     </div>
   </app-header>
   <app-content>
     <router-outlet></router-outlet>
+    <router-outlet name="settings"></router-outlet>
   </app-content>
 </div>
